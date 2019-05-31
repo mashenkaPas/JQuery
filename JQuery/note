@@ -1,0 +1,22 @@
+for(i = 0; i<document.querySelectorAll("button").length ;i++){
+    document.querySelectorAll("button")[i].addEventListener("click", function(){
+        document.querySelector("h1").style.colr ="red";
+    })
+}
+
+
+$("button").click(function(){
+    $("h1").css("color", "red");
+})
+
+
+
+document.querySelector("h1");
+$("h1")
+jQuery("h1");
+
+
+Google CDN
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+</head>
